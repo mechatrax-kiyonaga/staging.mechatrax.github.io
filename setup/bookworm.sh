@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -eu
 
-REPO=http://mechatrax.github.io/raspbian/
+#REPO=http://mechatrax.github.io/raspbian/
+REPO=http://mechatrax-kiyonaga.github.io/staging.mechatrax.github.io/raspbian/
 DIST=bookworm
 DEB=mechatrax-archive-keyring_2023.06.01_all.deb
 SHA256=97672fa7d6e9708c65e4b55c246deae68582979a3b77e0393afa460193acf75d
@@ -10,7 +11,8 @@ SIGNKEY=/usr/share/keyrings/mechatrax-archive-keyring.gpg
 
 pushd $TMPDIR
 echo "$SHA256 $DEB" > sha256.txt
-wget http://mechatrax.github.io/raspbian/pool/main/m/mechatrax-archive-keyring/$DEB
+#wget http://mechatrax.github.io/raspbian/pool/main/m/mechatrax-archive-keyring/$DEB
+wget http://mechatrax-kiyonaga.github.io/staging.mechatrax.github.io/raspbian/pool/main/m/mechatrax-archive-keyring/$DEB
 sha256sum -c sha256.txt
 dpkg -i $DEB
 popd
