@@ -1,3 +1,57 @@
+Package: 4gpi-net-mods
+Version: 1.5.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 17
+Depends: raspi-config (>= 20160527)
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.2_all.deb
+Size: 2996
+SHA256: 2aa7dc65fc60d2efd7e1182f9d26842375b3b426abbf1f7564e394f705381c71
+SHA1: d05ad39d6ad5315a6255f48e0bce691aa6d17ce1
+MD5sum: 7baeb43a9cb6db823584162465a4000c
+Description: Network configuration for 4GPi
+ This package contains network configuration files for 4GPi
+
+Package: 4gpi-networkmanager
+Version: 4.0.0
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 48
+Depends: python3, python3-gi, python3-dbus, network-manager, modemmanager, 4gpi-utils, gir1.2-modemmanager-1.0, gir1.2-nm-1.0, gir1.2-qmi-1.0
+Conflicts: 4gpi-networkmanager
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_4.0.0_all.deb
+Size: 8924
+SHA256: 280caedaf3cc36602897efb35dc5486108c6dd60ffe8b0cabb0db04374323878
+SHA1: 2b380654174b7ea9dcea705c560b006f4d930f2b
+MD5sum: c0df9fa4c14648708aad1e8abdf35385
+Description: NetworkManager settings and helper tools for 4GPi
+ This package contains udev rules and helper tools for using 4GPi with
+ NetworkManager.
+
+Package: 4gpi-utils
+Version: 3.2.0.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 41
+Depends: ppp, gpiod
+Suggests: 4gpi-net-mods
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-utils/4gpi-utils_3.2.0.1_all.deb
+Size: 6848
+SHA256: 3d048e499e40db9d1ed3dc84c3c9862152aca035205eb756325804555374c551
+SHA1: cae0f93e6025cf333d6aae49762752b854ccae26
+MD5sum: d245dd1d754cfb0054dbc00b3271620b
+Description: Utilities for 4GPi family
+ This package contains command line utilities to control 4GPi family.
+
 Package: mechatrax-archive-keyring
 Version: 2023.06.01
 Architecture: all
