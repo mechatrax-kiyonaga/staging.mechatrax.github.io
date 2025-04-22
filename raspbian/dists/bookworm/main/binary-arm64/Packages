@@ -298,8 +298,27 @@ Description: Python 3 module for slee-Pi family.
  .
  This package installs the library for Python 3.
 
+Package: sleepi3-dkms
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 70
+Depends: dkms, xz-utils, linux-headers-rpi-dummy | linux-headers-rpi-v8 | linux-headers-rpi-2712
+Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
+Homepage: https://mechatrax.com
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-dkms/sleepi3-dkms_1.0.0_arm64.deb
+Size: 13800
+SHA256: 2ebcb9233f561e11bb6b4e77f7ddbaa7180fbb0df807dc652c15b18b7dde7497
+SHA1: 3f051c5f04ced2764755078baf2e46adbbe9aaa8
+MD5sum: 6547da570977e907ad5436c73cd88214
+Description: Linux kernel module to use slee-Pi 3 (DKMS)
+ This package contains the source for rtc kernel module. The RTC
+ kernel module for using slee-Pi 3 to be built with dkms.
+
 Package: sleepi3-firmware
-Version: 2.0.2.1
+Version: 2.0.3
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
@@ -310,11 +329,11 @@ Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.2.1_arm64.deb
-Size: 4048
-SHA256: 3d05d5e474f4d11acce79efa1f3437933546e5703a469c6824fa648746d6215d
-SHA1: 4d9cffd89b6d31ae4179a4727095585cb338751f
-MD5sum: d254cdb45cba73f5d578acbbd8e1cb28
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3_arm64.deb
+Size: 4076
+SHA256: 1e9192d6ee4ca6f1cf3a1bb94fb8732a20693c1887c993eb349bd03b9b7333fe
+SHA1: 56a90559a419e4577e970a584b4406dec2e76c45
+MD5sum: 1f9944f780848523f046f149e9c842ed
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
