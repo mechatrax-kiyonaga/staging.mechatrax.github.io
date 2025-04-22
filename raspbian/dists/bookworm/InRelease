@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: bookworm
-Date: Fri, 28 Mar 2025 21:25:05 UTC
+Date: Tue, 22 Apr 2025 02:58:20 UTC
 Architectures: armhf arm64
 Components: main soracom
 Description: Mechatrax archive for Raspbian Bookworm
@@ -12,11 +12,11 @@ MD5Sum:
  d4d704559cdbbf75b6e0b2710ee9acc9 13802 main/binary-armhf/Packages
  30830add84bff232a67349815bad3bd0 3858 main/binary-armhf/Packages.gz
  b353fbc7d99d2490f788c496b56220c7 136 main/binary-armhf/Release
- d2bd4c98213b7351e9b466f0cff55c11 12992 main/binary-arm64/Packages
- d541bb0838ac2073bcfc324ae0dbfb35 3692 main/binary-arm64/Packages.gz
+ 5a3cff81284cc9f313c1e59aac163593 12988 main/binary-arm64/Packages
+ b3cedf9a991e2466546142c358bf4707 3692 main/binary-arm64/Packages.gz
  1032e418f8758fce26e159c932edfbf1 136 main/binary-arm64/Release
- 7bef943f34dda30fa073d34f33f89387 19177 main/source/Sources
- 07bb1e6bb3dd65477548acf4215cfbdd 4674 main/source/Sources.gz
+ dfbe8b55e9717fd71d19f641a24c52b5 19163 main/source/Sources
+ 49f8a744c44984dcc61eac1ca87bba8e 4669 main/source/Sources.gz
  2333c937373b58242425ef10e0212b8c 137 main/source/Release
  663e4fa242dba54c7cabb29df311ac97 440 soracom/binary-armhf/Packages
  b511dc466a6448450a89595c60601f77 331 soracom/binary-armhf/Packages.gz
@@ -31,11 +31,11 @@ SHA1:
  b5df7201de2a3eee4965911a4b64fc5a20c209a6 13802 main/binary-armhf/Packages
  a26cf4df3bf9529d0ce978f7676c4943fdc134c6 3858 main/binary-armhf/Packages.gz
  bb4bd2ea42888a883bde2ed990a37cd07a192ca7 136 main/binary-armhf/Release
- 66c1a9970683c7b1cf7f0bd436c67ccbb1ae2924 12992 main/binary-arm64/Packages
- 612cb29b6bd5eb6f519ad377dbe1c8cab7c0d4e2 3692 main/binary-arm64/Packages.gz
+ 69aab353ed52a6106aa737d328f8c5d32eae2afb 12988 main/binary-arm64/Packages
+ 23eb20232dddece9639cbf5f3d9228a35e95c3a7 3692 main/binary-arm64/Packages.gz
  e61b2630f37a8ff2610cfd0f249389f7b4e496bb 136 main/binary-arm64/Release
- 4af7d128e8a30d33666adc8da8577c384970c7ee 19177 main/source/Sources
- 18a5a430839381110c9accfebe5f2ff0dbffb406 4674 main/source/Sources.gz
+ 1a7408737ca82c63643986d2324f94e7c35da830 19163 main/source/Sources
+ 8e067fa4375ce426f7f57e9cb0e0a64ff5c5aeed 4669 main/source/Sources.gz
  f30faf9a717185ef2409ab9977485156bd7112b0 137 main/source/Release
  3ba9a0f13ed40c4e762b495450098203036f5032 440 soracom/binary-armhf/Packages
  1146e42cd45411520bdb703eb21b6040cab36939 331 soracom/binary-armhf/Packages.gz
@@ -50,11 +50,11 @@ SHA256:
  503066b8b139364498a07f8f53ef9f63b23d0ab262cf5424d52614613e687e9f 13802 main/binary-armhf/Packages
  c594da42977198719e3f724d02194f47d8160584ab3bd706ea2c843aa9cbc22e 3858 main/binary-armhf/Packages.gz
  d3e7bb7659172a959d3253fc7f07ecf3671b1e82ad390955301771514c9b893d 136 main/binary-armhf/Release
- f82e292af9bb76eab95aaaa569c049a93bf4a92e1b84fa2ced9a0331f11dbfce 12992 main/binary-arm64/Packages
- 4ac3b56c5ef9969bfe7d446c16661bbdf6cdac1292ee09aff7ba06311dff9341 3692 main/binary-arm64/Packages.gz
+ ef7b098daf3e2e1670db0dde970cc64ffb1070b925fe384ef8dfcbdf16f1c5cd 12988 main/binary-arm64/Packages
+ 74bbfceb28992897663a4c36163115149ef460d8485fe3033d65bab47860561f 3692 main/binary-arm64/Packages.gz
  916731ccb2cbb0388aa064385203ba608cb534a713dc3c8bc921d6c9b39aa39c 136 main/binary-arm64/Release
- 1ac7c56a2b895e639adbc5be6495722a7552d1e6f3f3f14d091d901186e58d5a 19177 main/source/Sources
- 2f995d9a032111a98016a7c0d91c943c054e7c805748fc577b3cf0d95f828248 4674 main/source/Sources.gz
+ 06f3bbe7d35cc163cd7753dfeb16533dd2fc79de97f75e0971df5aeef66d8c51 19163 main/source/Sources
+ 5b26f813011508cc9b07d888e84205b5a502325e642c18ae6c5777f17d180c46 4669 main/source/Sources.gz
  82b89ee92a1937218eedf1308fde1700bd080612723de62f5f611e7d33edd2be 137 main/source/Release
  f348ce3214cb28638331de9a3646f9ee836bf85c4eca15a4cbf5c0ce6b71f6ac 440 soracom/binary-armhf/Packages
  f7293a6cc9da3e6eb9acaf25d88e7c44b7740f37b9b1a277b47187706bef6e4b 331 soracom/binary-armhf/Packages.gz
@@ -67,8 +67,8 @@ SHA256:
  77cf7f6f391acb093b49509f37ddd2f277a0becd24c346032a9ba17fdda7583e 140 soracom/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQS3SfsIgf5OQUB4t27Vk0v6ESUIOQUCZ+cTsgAKCRDVk0v6ESUI
-OadTAQChtvLItJP1UBN3N4UZmhXZpN3YbrkWyAbL6saCw9invwD9HMRGoFHczMCu
-MpnYPJHcJtVTsCECTY7uFb73BDi5Dg4=
-=zC5h
+iHUEARYIAB0WIQS3SfsIgf5OQUB4t27Vk0v6ESUIOQUCaAcFzAAKCRDVk0v6ESUI
+OUCQAP97CREk1QMxHV/8PHOc9LzhlGbkqfpi8FQoGh5lG7jlMQD/cCmEXlNJA4wq
+aQB4GdWdHkw3xfVNz9zIaAi5oZPDSQM=
+=HATg
 -----END PGP SIGNATURE-----
