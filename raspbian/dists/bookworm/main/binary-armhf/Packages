@@ -220,6 +220,25 @@ Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
 
+Package: mechatrax-dkms-sys-mods
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 11
+Depends: raspi-config (>= 20160506)
+Conflicts: adpi-dkms-sys-mods
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-dkms-sys-mods/mechatrax-dkms-sys-mods_1.0.0_armhf.deb
+Size: 2304
+SHA256: 3fe55dabaddfe1a9e8873adac9f0e65e6dcafc120afd026ed1f1d41ecfcec82a
+SHA1: d1cad2e95343e4d9689e7189a5afde9ed4fbaaed
+MD5sum: 4395a1d3fd1c131aa4c0c22215ce8330
+Description: System boot configuration for MechaTracks dkms packages
+ This package provides system boot configuration to use dkms packages
+ for MechaTracks packages.
+
 Package: mechatrax-firmware-dummy
 Source: mechatrax-firmware-migration-helper
 Version: 1.0.0
