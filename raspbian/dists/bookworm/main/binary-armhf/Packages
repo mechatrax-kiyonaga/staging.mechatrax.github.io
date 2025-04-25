@@ -53,20 +53,20 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-dkms
-Version: 1.0.1
+Version: 1.1.0
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 38
-Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v6 | linux-headers-rpi-v7 | linux-headers-rpi-v7l, adpi-dkms-sys-mods
+Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v6 (>= 1:6.12) | linux-headers-rpi-v7 (>= 1:6.12) | linux-headers-rpi-v7l (>= 1:6.12), mechatrax-dkms-sys-mods
 Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-dkms/adpi-dkms_1.0.1_armhf.deb
-Size: 6572
-SHA256: 42f95d0af93068e2bb33012cc9b82e577be1e7b239a7f00028cfbe7e88aed8c2
-SHA1: fa87a6a6cf6e0bdd1531285014380daadc29f725
-MD5sum: 50dc15591641c0ea957bce22edc1ef11
+Filename: pool/main/a/adpi-dkms/adpi-dkms_1.1.0_armhf.deb
+Size: 6712
+SHA256: 974370f7f99319951243a08a459ff1e1ff79f000fafea5f82d20085404405ee6
+SHA1: 4ae97436647a8beb4a70010ea2297a7609e8927a
+MD5sum: 76bfe3d9b417334978b0ee895d1f9a72
 Description: Patches for Linux kernel module to use ADPi (DKMS)
  This package contains the patches for adc kernel modules. The iio and adc
  kernel modules for using ADPi to be built with dkms.
