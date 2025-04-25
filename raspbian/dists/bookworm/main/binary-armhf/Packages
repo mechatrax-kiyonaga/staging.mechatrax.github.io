@@ -317,22 +317,22 @@ Description: Python 3 module for slee-Pi family.
  This package installs the library for Python 3.
 
 Package: sleepi3-firmware
-Version: 2.0.2.1
+Version: 2.0.3.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
 Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
 Depends: raspi-config (>= 20160506)
-Recommends: linux-image-rpi-dummy | linux-image-rpi-v6 | linux-image-rpi-v7 | linux-image-rpi-v7l | linux-image-rpi-v8 | linux-image-rpi-2712
+Recommends: linux-image-rpi-dummy | linux-image-rpi-v6 (>= 1:6.12) | linux-image-rpi-v7 (>= 1:6.12) | linux-image-rpi-v7l (>= 1:6.12) | linux-image-rpi-v8 (>= 1:6.12) | linux-image-rpi-2712 (>= 1:6.12), sleepi3-dkms
 Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.2.1_armhf.deb
-Size: 4056
-SHA256: 294a8913155c387e263860de2fb6b8ee6efc1f1d9390155a0a38a2d724372da1
-SHA1: 7ca0c1b8792c9ced4d24b432762c53a1b6251b37
-MD5sum: 94c7094204828a5e90c9d06b5f6cb3ea
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3.1_armhf.deb
+Size: 4124
+SHA256: b87c9ba7b9ca34fed2fa4238802a4e6dbb3272b64d1f1a4a18e443cb918fd03c
+SHA1: f3d9037ef8e6deb82a5d44d71cdf97234a86b013
+MD5sum: 5e4f9ea6d8bbf303b4dab4918a1bbad5
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 

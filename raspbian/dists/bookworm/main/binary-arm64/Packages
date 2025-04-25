@@ -318,22 +318,22 @@ Description: Linux kernel module to use slee-Pi 3 (DKMS)
  kernel module for using slee-Pi 3 to be built with dkms.
 
 Package: sleepi3-firmware
-Version: 2.0.3
+Version: 2.0.3.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
 Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
 Depends: raspi-config (>= 20160506)
-Recommends: linux-image-rpi-dummy | linux-image-rpi-v8 | linux-image-rpi-2712
+Recommends: linux-image-rpi-dummy | linux-image-rpi-v8 (>= 1:6.12) | linux-image-rpi-2712 (>= 1:6.12), sleepi3-dkms
 Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3_arm64.deb
-Size: 4076
-SHA256: 1e9192d6ee4ca6f1cf3a1bb94fb8732a20693c1887c993eb349bd03b9b7333fe
-SHA1: 56a90559a419e4577e970a584b4406dec2e76c45
-MD5sum: 1f9944f780848523f046f149e9c842ed
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3.1_arm64.deb
+Size: 4112
+SHA256: 3ef069de07073e658893e4dd580b9fc380200ad7a9a0d56840cccb70c53e68db
+SHA1: cca665b5562608666c397f32e93f3f2238a29dc3
+MD5sum: 8cb81b50795b4ffad9c9f57734db0637
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
