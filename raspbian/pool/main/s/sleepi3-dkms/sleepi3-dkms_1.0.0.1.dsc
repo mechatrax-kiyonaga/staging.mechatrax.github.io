@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: sleepi3-dkms
 Binary: sleepi3-dkms
 Architecture: armhf arm64
-Version: 1.0.0
+Version: 1.0.0.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  sleepi3-dkms deb kernel optional arch=armhf,arm64
 Checksums-Sha1:
- 41e48093ae9ad5491aad4fdecf900a1f46d5e2d0 13592 sleepi3-dkms_1.0.0.tar.xz
+ cd862817a0210a80694f7c2502137b8219f4b53d 13724 sleepi3-dkms_1.0.0.1.tar.xz
 Checksums-Sha256:
- 7a3a7720d79ac51f2931aa30aae2b5ccfa7f15c2d6ce29c9b316f1c8f6cc622e 13592 sleepi3-dkms_1.0.0.tar.xz
+ 43d80e85e04bd0f029a67aaa9ad10f916af7502004902ea20f504d0e59735a64 13724 sleepi3-dkms_1.0.0.1.tar.xz
 Files:
- b01a9a80230d270d3e5daef095d7e04c 13592 sleepi3-dkms_1.0.0.tar.xz
+ 2aa75929edc86c27db3d68baf9d12dab 13724 sleepi3-dkms_1.0.0.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCaAb8FQAKCRA3xGIJUv9H
-GXnZAQCnVV88H0vxVi5wOABB9OU9YKqYQAWAEjn1F1LEQl2PxQD+MBEjOO4htRUt
-hHjhKU5TTuQdD9kvlT5OeJXRnEGKQQA=
-=vvNo
+iHUEARYIAB0WIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCaArhxQAKCRA3xGIJUv9H
+GbD3APsFnF+5R4gtNfXmCwutu0MBp+GR7No9A/7LFSc0w7oBmgEA/3l3Nx5S7E70
+6ojE7qA/WdRekY++QD5mPPwrqdOGmgE=
+=kE4p
 -----END PGP SIGNATURE-----

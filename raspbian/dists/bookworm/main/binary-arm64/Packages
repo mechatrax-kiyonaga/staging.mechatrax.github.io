@@ -53,20 +53,20 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-dkms
-Version: 1.0.1
+Version: 1.1.0
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 38
-Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v8 | linux-headers-rpi-2712
+Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v8 (>= 1:6.12) | linux-headers-rpi-2712 (>= 1:6.12)
 Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-dkms/adpi-dkms_1.0.1_arm64.deb
-Size: 6564
-SHA256: e44cb46c9c4fcc1d4c1c72b24a00f4b08c41de3a4b13558eb28512568e857a19
-SHA1: 345900b52261c899bda69b14f721374db19040f5
-MD5sum: ba2869a79f1a09b2c826e4f4a17cb4c6
+Filename: pool/main/a/adpi-dkms/adpi-dkms_1.1.0_arm64.deb
+Size: 6696
+SHA256: b3a3e64ab44108a1236c175919cd83a48fc3932b3cc54cd5a177e675f501dbd0
+SHA1: fbd769c48d1bba9540680004d76a0c9cef7e95ab
+MD5sum: 818368fe4e920512cbb26586d6605ad4
 Description: Patches for Linux kernel module to use ADPi (DKMS)
  This package contains the patches for adc kernel modules. The iio and adc
  kernel modules for using ADPi to be built with dkms.
@@ -299,41 +299,41 @@ Description: Python 3 module for slee-Pi family.
  This package installs the library for Python 3.
 
 Package: sleepi3-dkms
-Version: 1.0.0
+Version: 1.0.0.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 70
-Depends: dkms, xz-utils, linux-headers-rpi-dummy | linux-headers-rpi-v8 | linux-headers-rpi-2712
+Depends: dkms, xz-utils, linux-headers-rpi-dummy | linux-headers-rpi-v8 (>= 1:6.12) | linux-headers-rpi-2712 (>= 1:6.12)
 Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-dkms/sleepi3-dkms_1.0.0_arm64.deb
-Size: 13800
-SHA256: 2ebcb9233f561e11bb6b4e77f7ddbaa7180fbb0df807dc652c15b18b7dde7497
-SHA1: 3f051c5f04ced2764755078baf2e46adbbe9aaa8
-MD5sum: 6547da570977e907ad5436c73cd88214
+Filename: pool/main/s/sleepi3-dkms/sleepi3-dkms_1.0.0.1_arm64.deb
+Size: 13948
+SHA256: 7de92de1a150fc3c28e3d7517d7a2496e78aee2bafd89c984677d33b4263231d
+SHA1: 6f25e1779383540d2c6e669f38c9e4fc2b509e88
+MD5sum: 84085ea595dd2af9e38296103331d421
 Description: Linux kernel module to use slee-Pi 3 (DKMS)
  This package contains the source for rtc kernel module. The RTC
  kernel module for using slee-Pi 3 to be built with dkms.
 
 Package: sleepi3-firmware
-Version: 2.0.3
+Version: 2.0.3.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
 Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
 Depends: raspi-config (>= 20160506)
-Recommends: linux-image-rpi-dummy | linux-image-rpi-v8 | linux-image-rpi-2712
+Recommends: linux-image-rpi-dummy | linux-image-rpi-v8 (>= 1:6.12) | linux-image-rpi-2712 (>= 1:6.12), sleepi3-dkms
 Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3_arm64.deb
-Size: 4076
-SHA256: 1e9192d6ee4ca6f1cf3a1bb94fb8732a20693c1887c993eb349bd03b9b7333fe
-SHA1: 56a90559a419e4577e970a584b4406dec2e76c45
-MD5sum: 1f9944f780848523f046f149e9c842ed
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3.1_arm64.deb
+Size: 4112
+SHA256: 3ef069de07073e658893e4dd580b9fc380200ad7a9a0d56840cccb70c53e68db
+SHA1: cca665b5562608666c397f32e93f3f2238a29dc3
+MD5sum: 8cb81b50795b4ffad9c9f57734db0637
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
