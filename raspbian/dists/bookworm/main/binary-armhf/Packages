@@ -316,6 +316,25 @@ Description: Python 3 module for slee-Pi family.
  .
  This package installs the library for Python 3.
 
+Package: sleepi3-dkms
+Version: 1.0.0.1
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 70
+Depends: dkms, xz-utils, linux-headers-rpi-dummy | linux-headers-rpi-v6 (>= 1:6.12) | linux-headers-rpi-v7 (>= 1:6.12) | linux-headers-rpi-v7l (>= 1:6.12), mechatrax-dkms-sys-mods
+Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
+Homepage: https://mechatrax.com
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-dkms/sleepi3-dkms_1.0.0.1_armhf.deb
+Size: 13964
+SHA256: 74d3511df0400cebaf6bca31a59eb7fdb38f92c92cc618fe47efd8419f85765b
+SHA1: 087d533ef78ed4534e69d639d464e87a551ff368
+MD5sum: b528890c13e892ea3796dd7e8e390005
+Description: Linux kernel module to use slee-Pi 3 (DKMS)
+ This package contains the source for rtc kernel module. The RTC
+ kernel module for using slee-Pi 3 to be built with dkms.
+
 Package: sleepi3-firmware
 Version: 2.0.3.1
 Architecture: armhf
