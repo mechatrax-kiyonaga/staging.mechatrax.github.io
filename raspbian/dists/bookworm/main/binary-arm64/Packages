@@ -53,20 +53,20 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-dkms
-Version: 1.1.0
+Version: 1.1.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 38
+Installed-Size: 57
 Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v8 (>= 1:6.12) | linux-headers-rpi-2712 (>= 1:6.12)
 Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-dkms/adpi-dkms_1.1.0_arm64.deb
-Size: 6696
-SHA256: b3a3e64ab44108a1236c175919cd83a48fc3932b3cc54cd5a177e675f501dbd0
-SHA1: fbd769c48d1bba9540680004d76a0c9cef7e95ab
-MD5sum: 818368fe4e920512cbb26586d6605ad4
+Filename: pool/main/a/adpi-dkms/adpi-dkms_1.1.1_arm64.deb
+Size: 7056
+SHA256: 9f7731f7fd2ff873276e77d0bc71511c3d19ae78b4f365ba07b1183126eedcef
+SHA1: 62655a0e4af2747e58a1d49d403a5d6a091eb56e
+MD5sum: 1adfd76f6290b7bbe21cb664d1c6783b
 Description: Patches for Linux kernel module to use ADPi (DKMS)
  This package contains the patches for adc kernel modules. The iio and adc
  kernel modules for using ADPi to be built with dkms.
