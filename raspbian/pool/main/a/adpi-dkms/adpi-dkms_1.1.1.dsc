@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: adpi-dkms
 Binary: adpi-dkms
 Architecture: armhf arm64
-Version: 1.1.0
+Version: 1.1.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  adpi-dkms deb kernel optional arch=armhf,arm64
 Checksums-Sha1:
- ac47a5e673212c59af0d1a2617e65f6472b6106e 7196 adpi-dkms_1.1.0.tar.xz
+ dd03acbf9fca44b4fa607a836190ed680bbf27c4 7452 adpi-dkms_1.1.1.tar.xz
 Checksums-Sha256:
- f0e8c019df04e86f0fbf86476200f567a1c1bacf09c2939549e2546e185e06d9 7196 adpi-dkms_1.1.0.tar.xz
+ 634016dcda0ca9d31faad72c9b9af7fe665542598335bcb26bf9c02e5312da4b 7452 adpi-dkms_1.1.1.tar.xz
 Files:
- 4bb098083a7b8a57e065c5314795370c 7196 adpi-dkms_1.1.0.tar.xz
+ b376557538c48c488fdc2d2bff2ee129 7452 adpi-dkms_1.1.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCaArlIwAKCRA3xGIJUv9H
-GSL5AQDajiaLTQqaYzB7COIdow694xjk3CqcaPjA7u9D6H89aQD/RFo5EHkc5Uz1
-PQ9l/DMgCAfGp9l11VT+lg2Qpk2Vhgo=
-=qVN1
+iHUEARYIAB0WIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCaBq0WwAKCRA3xGIJUv9H
+GZJrAQDIrp6ZSa1HJFyb0KGX+ov+VMWYda090zGqW0z7uxdWYAEA1h6GHoPjKmOo
+69yPG2GFIA2BA7vU/5TceyXsE0BVFgE=
+=5hNC
 -----END PGP SIGNATURE-----
