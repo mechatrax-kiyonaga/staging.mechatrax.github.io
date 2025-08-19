@@ -318,7 +318,7 @@ Description: Linux kernel module to use slee-Pi 3 (DKMS)
  kernel module for using slee-Pi 3 to be built with dkms.
 
 Package: sleepi3-firmware
-Version: 2.0.3.1
+Version: 2.0.4.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
@@ -329,11 +329,11 @@ Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.3.1_arm64.deb
-Size: 4112
-SHA256: 3ef069de07073e658893e4dd580b9fc380200ad7a9a0d56840cccb70c53e68db
-SHA1: cca665b5562608666c397f32e93f3f2238a29dc3
-MD5sum: 8cb81b50795b4ffad9c9f57734db0637
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.4.1_arm64.deb
+Size: 4240
+SHA256: a4a83b7aa71770583a2008b7c27736ac011dd665658cfaa8eab6c4663c989e9c
+SHA1: ddb07153da6869841e9de360986dea0da6e14b09
+MD5sum: 09a00101593628e42a54a4265069e453
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
@@ -355,7 +355,7 @@ Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 64
@@ -364,11 +364,11 @@ Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.8_all.deb
-Size: 9164
-SHA256: 58867ff6dc8f27dcf52c5e05a25bbfd69121669d7b369c17297a1f3728d59e29
-SHA1: ff4b14aafa9e118a2286547f92d04b1760ebdf0d
-MD5sum: b0482935b8f3e930913f0bab8e65b5b4
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.9_all.deb
+Size: 9224
+SHA256: 51f937b4bc9b61f1badca93ea8e888cc40fc972095df3687941eb486bf094a29
+SHA1: 73acf8349f50017a9509f16a8ac5e46206088213
+MD5sum: eb3eb3e0a95cc95e7d6a00a38cd84f28
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 
