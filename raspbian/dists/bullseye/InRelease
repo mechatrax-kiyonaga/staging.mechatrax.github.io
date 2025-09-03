@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: bullseye
-Date: Tue, 22 Jul 2025 21:24:58 UTC
+Date: Fri, 29 Aug 2025 21:25:00 UTC
 Architectures: armhf arm64
 Components: main contrib non-free soracom
 Description: Mechatrax archive for Raspbian Bullseye
@@ -36,11 +36,11 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  8c919d8952392a4a747c8b07775f3d56 141 non-free/source/Release
- 4aec45d4a99ca5d57bcda9ace1467afa 440 soracom/binary-armhf/Packages
- c51e3d14691113b12444a8c10f0bedb4 333 soracom/binary-armhf/Packages.gz
+ ff144e2232978747d23c692eaa7b881a 440 soracom/binary-armhf/Packages
+ e40e5d6277a5e02ed56293c5fc6170d8 333 soracom/binary-armhf/Packages.gz
  683c9fe826f59634adb0dcdb9d69bc4d 139 soracom/binary-armhf/Release
- fe4da5b5cc2fae28a411d1e38e28d0f5 440 soracom/binary-arm64/Packages
- fd512b2f45cb68ae50e08ff1ae61a9d3 331 soracom/binary-arm64/Packages.gz
+ c0320ab9af35adc8446c061bc2177033 440 soracom/binary-arm64/Packages
+ 76583f7d854950abd0edcf4eba1d04ce 334 soracom/binary-arm64/Packages.gz
  7d08b368342652be310f051466041d49 139 soracom/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 soracom/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
@@ -73,11 +73,11 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  bb4d108cc9994dd74547c4258877c78e82ad21b5 141 non-free/source/Release
- 10bdde6ab00b2f2042f5a7b3e74c3aceee42814b 440 soracom/binary-armhf/Packages
- 60eff5c238ad1cbbcd953ec6c9f74445370aa44f 333 soracom/binary-armhf/Packages.gz
+ 9a3d6277c88c1afbf99cd0487ab9250f9feac42b 440 soracom/binary-armhf/Packages
+ 1b02029639128251dac99cecfc5703ef39ea2376 333 soracom/binary-armhf/Packages.gz
  0bbf27ca8a34f301630f0fcfb4fa426bd0c2f53f 139 soracom/binary-armhf/Release
- a64278ced06d250064c52fa9df5211e0e7ede07e 440 soracom/binary-arm64/Packages
- abbf7a8f087d07470b3656cc12c91603652f8f48 331 soracom/binary-arm64/Packages.gz
+ fc524c51ecc05f53ea282e5e3efb601c95c8295a 440 soracom/binary-arm64/Packages
+ 3514c46201cbf041399af9c6fe05b8f46fc7bfa9 334 soracom/binary-arm64/Packages.gz
  8829f9cb8b2cf0b29bd5010468716c94e1bf1ced 139 soracom/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
@@ -110,23 +110,23 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
  4ea638ba83a3e65872a95d4a6640d4362b342ae29e599496a1381873d65328c4 141 non-free/source/Release
- ba50f6dc1538998c0243b0c5b4cb2037877873270518f9d357d85bcb098f1c44 440 soracom/binary-armhf/Packages
- 8d2c8652ce0001d99757e4489d2b260746bdec5861dce0a64706067a8086e161 333 soracom/binary-armhf/Packages.gz
+ 96b4379fad97dfdcd9b5aa02a4bce9db0631fbfb14caa1f740a95f4790cfb63c 440 soracom/binary-armhf/Packages
+ db85bfec0ef264d556b34b9cc480dd5a277e0e586a563d2a6af19c12dffbdcac 333 soracom/binary-armhf/Packages.gz
  fa958e16a4c16ecee1873174f01d5c6f7b66e5b19828ca0e311f1a540125af7f 139 soracom/binary-armhf/Release
- 579156c69cc7977e8f2dc1ca04e37b935c933ef5c860dc41db453c697a67e994 440 soracom/binary-arm64/Packages
- 213420fda7f8a92e37781c04f1716519271413d7e7295d557f894cd37ddaf7be 331 soracom/binary-arm64/Packages.gz
+ 0f39f07b9fab4efdd79496b4ff4b1c95a1a58ba0944d7c051413af0149adc2d0 440 soracom/binary-arm64/Packages
+ c6ad8e25589efb434aba4ac25894dd6b8dae45863052de6fe3d6af2749f90eca 334 soracom/binary-arm64/Packages.gz
  e2f92df63e206cf44d85e78981841855e108dea5443bf5d4b60556fbd69ec0ac 139 soracom/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/source/Sources.gz
  cc32f6b2b1f63e5bbe3856d77e14b08c5886875a3690db6afdc8ac68785d9d47 140 soracom/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCgAdFiEEszPH+GwgndYPuqRUl1l5EMfcmcgFAmiAAasACgkQl1l5EMfc
-mcilegf8Dz/tCyZ80pbCEKAgcoKqRXPO7mQExFv0vsKMcbF6e/VEpwOCWGQuv2/s
-/fRx01FBaSjV4hovEnWvobydDKWRZi7TEM8JzVN6K+xao+XBf8LMbZvOlD/YvfQq
-hSart5AKPRXLckk0XPvi7KDw2X/FdNBc0oVizBUi+lQmQnc3NhXHkoabV40AK2pW
-ASdGjN60IA/0ur+IjSWYq3HosTP/FTToghqyUnrhkWOo71jBePzuNBaR3ww81dhV
-o8UAPCBszxyiumQ/2XX9N0ow4e6B3QviYRRqfbF+bXLmIFwABBfSlq5NGuFs5apZ
-tYGQ3wiOvZppeyi38CZzTnxH7uh3qQ==
-=MUGU
+iQEzBAEBCgAdFiEEszPH+GwgndYPuqRUl1l5EMfcmcgFAmiyGq0ACgkQl1l5EMfc
+mcikdwf+MHolC8XTGV/AnrMmnZ6XLa8kfPkCN6gqP72kxc8pxInnT03uOfjFFEXK
+7CS31rCOJsh/X3ueiaA9nrKLMzyuouVTPv5BNYLoYve16FvkhMtTLeadDiorlMvi
+3NeqdVcuCuKMcQcDl3dUCCEhP+6ecKtSbSFpqL5zxCVwzzhGzxoPDmrOWUZ6+EPM
+fRBYYe0XZ6ejpNbOIs9qjr0nTk728KVk1i0FijNzVh1hEBg/f0RzRpT+QCGyQ2z/
+KlkVyXw31gj0LWt5LKh97NJEqVcSTbcF3OSj3y77IlJEyr6jcT4sHvDXQByPVyTj
+Vmmh8om1pRaX+KxFU86+0SI8oFN0RA==
+=yiG0
 -----END PGP SIGNATURE-----
