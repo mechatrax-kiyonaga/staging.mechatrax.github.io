@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: MechaTracks Co., Ltd.
+Label: Mechatrax
+Codename: trixie
+Date: Wed, 03 Dec 2025 09:31:50 UTC
+Architectures: arm64
+Components: main soracom
+Description: Mechatrax archive for Raspbian Trixie
+MD5Sum:
+ c3ec1be31ea0e68bb614ded93b65a9b1 664 main/binary-arm64/Packages
+ 3bcf5f5511de2bfe2ea403699e5a10de 428 main/binary-arm64/Packages.gz
+ f99915720032d63891438ddfc8c70e7a 134 main/binary-arm64/Release
+ b1a97a4856e62c1a5f2020c25190989e 1102 main/source/Sources
+ 9a631bbc23852c8d7d0d2394907ca9a3 541 main/source/Sources.gz
+ 89f287865d043479cedbbb27c621231f 135 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 soracom/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 soracom/binary-arm64/Packages.gz
+ cc49b6414332876f4f13467bef9d0476 137 soracom/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 soracom/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
+ b84189f496533c084e285fbea2d9ef72 138 soracom/source/Release
+SHA1:
+ 9c1b283dc9cc265f433e75fe54a573935330ce3c 664 main/binary-arm64/Packages
+ 8976ddc13e7ae05193b154f49d3e4ef6ab685506 428 main/binary-arm64/Packages.gz
+ b9b971528a934d966652ca4c008471cc703469ce 134 main/binary-arm64/Release
+ 8fbb00b86425c9992c3f9357ed75ec601518ca2b 1102 main/source/Sources
+ 4a3293a518e3e7350bdfb064562efec8717b5d53 541 main/source/Sources.gz
+ 25b4a61bdc6ae04100ec7709e0fa83b57e0bee38 135 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/binary-arm64/Packages.gz
+ 7c4b6c629cca8c2736a3136bc5c82061a9e4a99e 137 soracom/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
+ 5089d26702d208e3bd2d19797a0eaf2d1bd5db20 138 soracom/source/Release
+SHA256:
+ 3119ebbff6c14ae1e4cbec2c668c69e379e0bf0b7de0972737ecd699194b5154 664 main/binary-arm64/Packages
+ 6daa3b084f5c31c4c3b55d584c6757355d3300a75978e8148deba9e1e3ad2e66 428 main/binary-arm64/Packages.gz
+ 7b0ba75576008acd24bbcc092c8c19921a07bb02263cfcafe53db0985117abfb 134 main/binary-arm64/Release
+ 384be02303846accc371e148ae048d674758984be52abe894724289efd71362d 1102 main/source/Sources
+ ac6c33f4855958a18548b5d6544d8c007ad8b24e2f18ba597a96d941e880fcc4 541 main/source/Sources.gz
+ f9aec3bd8a0b3e0d404a96deb65ccd9bb419b69f037e950d463a6de38765a717 135 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/binary-arm64/Packages.gz
+ 057e16fca0be227423940a5ac747bfcdf7a6e380613a1273a85ac376070aa47c 137 soracom/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/source/Sources.gz
+ 18048de265ad628c0f53a0a698820202a84abfe5d67b1239885a5f7b5739dc5e 138 soracom/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQS3SfsIgf5OQUB4t27Vk0v6ESUIOQUCaTADhgAKCRDVk0v6ESUI
+OV5LAQCOWqeJlTLPVXbAn8FAO8mAJAUVC9K9e7cCCKDXFx+jMQEA1IQpMQlaWIMl
+dfvM79smegwV0kMWHkQOSEFQ6VuDhgQ=
+=DTw7
+-----END PGP SIGNATURE-----
