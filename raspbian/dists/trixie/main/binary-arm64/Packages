@@ -70,3 +70,21 @@ Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
 
+Package: sleepi3-utils
+Version: 1.0.9.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 63
+Depends: sleepi3-firmware, python3-sleepi, python3, util-linux-extra
+Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: admin
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.9.1_all.deb
+Size: 9332
+SHA256: f3109e949c9804015a4b6329573b8be89b3199cc044f09137cc058737cfc1c65
+SHA1: fbd22792f3229904d90c8745dcdba8017115ac89
+MD5sum: 2e14034484f358ade1567d216e9b6d7b
+Description: Utilities for slee-Pi 3
+ This package contains command utilities to control slee-Pi 3.
+
