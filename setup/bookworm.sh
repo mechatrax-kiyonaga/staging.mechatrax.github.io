@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -eu
 
-REPO=http://mechatrax.github.io/raspbian/
+#REPO=http://mechatrax.github.io/raspbian/
+REPO=http://mechatrax-kiyonaga.github.io/staging.mechatrax.github.io/raspbian/
 DIST=bookworm
 DEB=mechatrax-archive-keyring_2023.06.01.1_all.deb
 SHA256=b989055e08f5b0e350945cac8426a31a33fa1a77b1351ce783c6f3e04a34c4e1

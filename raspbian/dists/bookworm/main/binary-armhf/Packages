@@ -1,5 +1,5 @@
 Package: 4gpi-net-mods
-Version: 1.5.2.2
+Version: 1.5.3
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 17
@@ -7,11 +7,11 @@ Depends: raspi-config (>= 20160527)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.2.2_all.deb
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.3_all.deb
 Size: 3064
-SHA256: 440cb39d59a1ce69a7e9bde7f810b49686efa36123cf4bdadc3a571e40a9b876
-SHA1: 2f374e997847c03e54d4558830c441a4552b0a9d
-MD5sum: f7b5059f188c2879eceabf019fa7cb64
+SHA256: dcf866b66fa980df45d41cc1609a6ef294711cec463c54d38f58076cf669d928
+SHA1: 9036d4dd30480520e7dc0ef25f8c9e5063b4d6ac
+MD5sum: 1807cd0bc893dcfd51847d02c2fcb64b
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
@@ -35,7 +35,7 @@ Description: NetworkManager settings and helper tools for 4GPi
  NetworkManager.
 
 Package: 4gpi-utils
-Version: 3.2.0.2
+Version: 3.2.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 41
@@ -44,29 +44,29 @@ Suggests: 4gpi-net-mods
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-utils/4gpi-utils_3.2.0.2_all.deb
-Size: 6908
-SHA256: 61c02b7722c793915c918c53cb0eceb4294b6a70722277599de76c25619802ef
-SHA1: ab506724218b70ab4890eda1a1abb8f29210dc9a
-MD5sum: aa33c691333d4965774a26d657cc72db
+Filename: pool/main/4/4gpi-utils/4gpi-utils_3.2.2_all.deb
+Size: 7008
+SHA256: e78d4a42967e230a3326f70292236377b4f0efda3787c078dbe7c595fe64f32f
+SHA1: 86a78d1bdf14e5e9fa48695d9278485785462cdc
+MD5sum: 43586b2090681aef216a178468346be3
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-dkms
-Version: 1.0.1
+Version: 1.1.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 38
-Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v6 | linux-headers-rpi-v7 | linux-headers-rpi-v7l, adpi-dkms-sys-mods
+Installed-Size: 57
+Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v6 (>= 1:6.12) | linux-headers-rpi-v7 (>= 1:6.12) | linux-headers-rpi-v7l (>= 1:6.12), mechatrax-dkms-sys-mods
 Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-dkms/adpi-dkms_1.0.1_armhf.deb
-Size: 6572
-SHA256: 42f95d0af93068e2bb33012cc9b82e577be1e7b239a7f00028cfbe7e88aed8c2
-SHA1: fa87a6a6cf6e0bdd1531285014380daadc29f725
-MD5sum: 50dc15591641c0ea957bce22edc1ef11
+Filename: pool/main/a/adpi-dkms/adpi-dkms_1.1.1_armhf.deb
+Size: 7072
+SHA256: 8234cb68f7aaf85a7e9b8d361ccf2c6e23af0ea55086ebbdd5b9dd0cbc568280
+SHA1: 544f8b0610b3fe34d99714730ed3d268a2c73ffc
+MD5sum: 33acdee1a78426e1611f74cfe6f2a7c3
 Description: Patches for Linux kernel module to use ADPi (DKMS)
  This package contains the patches for adc kernel modules. The iio and adc
  kernel modules for using ADPi to be built with dkms.
@@ -90,7 +90,7 @@ Description: System boot configuration for ADPi
  This package provides system boot configuration for ADPi
 
 Package: adpi-firmware
-Version: 3.0.1
+Version: 3.0.1.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 23
@@ -100,16 +100,16 @@ Recommends: adpi-dkms, linux-image-rpi-dummy | linux-image-rpi-v6 | linux-image-
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.1_armhf.deb
-Size: 4480
-SHA256: 131b037298a9e35402a1b8ac517b9bed04270baa84675674bc818f30b1a1e37b
-SHA1: 45afcaa7ffeb0c5402175ef072026e25c25fe465
-MD5sum: 8f0485dea2a8178014e40bc403c5e657
+Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.1.1_armhf.deb
+Size: 4492
+SHA256: 18754efe99e0ab5d58fcd6ab8b4e1e7a0d52bb2e9c2ac644d4b28b2da092004d
+SHA1: 55c2e5bc27a1c1f2c643a5660f7f6fd7c26d260e
+MD5sum: 868b2e53de3c261be066dcebd99a0e02
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
 Package: adpi-utils
-Version: 2.0.5
+Version: 2.0.6
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 25
@@ -117,11 +117,11 @@ Depends: adpi-utils-backend-spidev | adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils/adpi-utils_2.0.5_all.deb
-Size: 4860
-SHA256: fd1af248c0161f46d70263bb217bd93a735c0b347bfed2b9b3f329df6c6e6ebb
-SHA1: a33b538144891d32614caf0b14d9ecef3848b9c0
-MD5sum: c979c441932eef721add465ef0693a9f
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.6_all.deb
+Size: 4980
+SHA256: ca83f75905f65c98fa8667094f3a4a0d68e9311721d5fff86f624a0d8c77adaf
+SHA1: a69a34301bb1e31a79230b816c246ae4318631d2
+MD5sum: 292865a0e5473bdc4b890c6ddb2211c9
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
@@ -220,6 +220,25 @@ Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
 
+Package: mechatrax-dkms-sys-mods
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 11
+Depends: raspi-config (>= 20160506)
+Conflicts: adpi-dkms-sys-mods
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-dkms-sys-mods/mechatrax-dkms-sys-mods_1.0.0_armhf.deb
+Size: 2304
+SHA256: 3fe55dabaddfe1a9e8873adac9f0e65e6dcafc120afd026ed1f1d41ecfcec82a
+SHA1: d1cad2e95343e4d9689e7189a5afde9ed4fbaaed
+MD5sum: 4395a1d3fd1c131aa4c0c22215ce8330
+Description: System boot configuration for MechaTracks dkms packages
+ This package provides system boot configuration to use dkms packages
+ for MechaTracks packages.
+
 Package: mechatrax-firmware-dummy
 Source: mechatrax-firmware-migration-helper
 Version: 1.0.0
@@ -258,6 +277,23 @@ MD5sum: c77f508ba657d9b0d06f041229e56128
 Description: firmware migration helper package for MechaTracks products
  This package contains scripts to migrate firmware packages for MechaTracks
  products.
+
+Package: pifield-monitor
+Version: 1.0.0
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 40
+Depends: python3-serial, python3-yaml, python3, systemd
+Homepage: https://mechatrax.com
+Priority: optional
+Section: misc
+Filename: pool/main/p/pifield-monitor/pifield-monitor_1.0.0_all.deb
+Size: 6096
+SHA256: 2798d104ed182709a3102efed3f3fc14e76c302fa2c2c84ea0f031ffe2d9ec69
+SHA1: 4a59f0b195921f9120d370fa777d7b52fd53e463
+MD5sum: 8c6cc4a175572a63812b01c08813c5ec
+Description: Monitoring daemon for Pi-field
+ This package contains the daemon to monitoring serials connected to Pi-field.
 
 Package: python3-adpi
 Source: python-adpi
@@ -299,23 +335,42 @@ Description: Python 3 module for slee-Pi family.
  .
  This package installs the library for Python 3.
 
+Package: sleepi3-dkms
+Version: 1.0.0.1
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 70
+Depends: dkms, xz-utils, linux-headers-rpi-dummy | linux-headers-rpi-v6 (>= 1:6.12) | linux-headers-rpi-v7 (>= 1:6.12) | linux-headers-rpi-v7l (>= 1:6.12), mechatrax-dkms-sys-mods
+Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
+Homepage: https://mechatrax.com
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-dkms/sleepi3-dkms_1.0.0.1_armhf.deb
+Size: 13964
+SHA256: 74d3511df0400cebaf6bca31a59eb7fdb38f92c92cc618fe47efd8419f85765b
+SHA1: 087d533ef78ed4534e69d639d464e87a551ff368
+MD5sum: b528890c13e892ea3796dd7e8e390005
+Description: Linux kernel module to use slee-Pi 3 (DKMS)
+ This package contains the source for rtc kernel module. The RTC
+ kernel module for using slee-Pi 3 to be built with dkms.
+
 Package: sleepi3-firmware
-Version: 2.0.1
+Version: 2.0.4.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
 Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
 Depends: raspi-config (>= 20160506)
-Recommends: linux-image-rpi-dummy | linux-image-rpi-v6 | linux-image-rpi-v7 | linux-image-rpi-v7l | linux-image-rpi-v8 | linux-image-rpi-2712
+Recommends: linux-image-rpi-dummy | linux-image-rpi-v6 (>= 1:6.12) | linux-image-rpi-v7 (>= 1:6.12) | linux-image-rpi-v7l (>= 1:6.12) | linux-image-rpi-v8 (>= 1:6.12) | linux-image-rpi-2712 (>= 1:6.12), sleepi3-dkms
 Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.1_armhf.deb
-Size: 3944
-SHA256: 783b873bceba0941d234a427a2e1d75c2f976c4c717a7eee86f594e8f8da5cf6
-SHA1: 9307571ef5b2254e8dbacfc526fd1d64894f278d
-MD5sum: c77c48e96617fb9dcb9c59e906e3ae58
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.4.1_armhf.deb
+Size: 4252
+SHA256: 5df4189c558b5cd236de9957521f05267905f04325cd0ea1432aa6c03e413f98
+SHA1: 19a6fd62497a85a0c2084a7fa24a916b9fbc7878
+MD5sum: f4aa74a8dcc220f5d448110a9be9ecdc
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
@@ -337,20 +392,20 @@ Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.7
+Version: 1.0.9
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 62
+Installed-Size: 64
 Depends: sleepi3-firmware, python3-sleepi, python3
 Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.7_all.deb
-Size: 9040
-SHA256: 53472c94311d97cbc71955e8cf7cd081182f56cba74fb966381fabca3b478b32
-SHA1: 629cf28340c9df4cf4bae309e13105bee338b339
-MD5sum: 92cf89cb05d7a76c3ca1afaa1e12fc76
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.9_all.deb
+Size: 9224
+SHA256: 51f937b4bc9b61f1badca93ea8e888cc40fc972095df3687941eb486bf094a29
+SHA1: 73acf8349f50017a9509f16a8ac5e46206088213
+MD5sum: eb3eb3e0a95cc95e7d6a00a38cd84f28
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 
